@@ -34,14 +34,16 @@ header {
 	background-color: black;
 }
 
-footer {
+.footer .push{
+	border-top:1px solid #e3e3e3;
+	height: 155px;
 	position:fixed;
 	bottom:10px;
-	border-top:1px solid #e3e3e3;
 	width:100%;
 	left:0px;
 	text-align:center;
 	padding:10px;
+	margin: 0 auto;
 }
 
 #vidDiv{
