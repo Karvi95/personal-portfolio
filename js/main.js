@@ -11,6 +11,10 @@ myApp.config(function($stateProvider){
             url:'/projects',
             templateUrl:'templates/projects.html',
             controller: 'projectsController',
+        }).state('code',{
+            url:'/code',
+            templateUrl:'templates/code.html',
+            controller:'codeController'
         }).state('about',{
             url:'/about',
             templateUrl:'templates/about.html',
@@ -22,26 +26,29 @@ myApp.config(function($stateProvider){
 .controller('HomeController',function($scope, $http){
 })
 
-// About page controller: define $scope.about as a string
-.controller('AboutController', function($scope, $http){
-    $http.get("data/intro.json").success(function(response) {
-        $scope.intro = data;
-    })   
-    $http.get("data/hobbies.json").success(function(response) {
-        $scope.hobbies = dataOne;
-    })
-    $http.get("data/interests.json").success(function(response) {
-        $scope.interests = dataTwo;
-    })
-})
-
-
 // projects controller: define $scope.url as an image
 .controller('projectsController', function($scope, $http){
     $http.get("data/codingExperience.json").success(function(response) {
-        $scope.exp = response;
+        $scope.exps = response;
     })
     $http.get("data/projectsList.json").success(function(response) {
         $scope.projects = response;
     })
 })
+
+// About page controller: define $scope.about as a string
+.controller('AboutController', function($scope, $http){
+    $http.get("data/intro.json").success(function(response) {
+        $scope.intro = response;
+    })   
+    $http.get("data/hobbies.json").success(function(response) {
+        $scope.hobbies = response;
+    })
+    $http.get("data/interests.json").success(function(response) {
+        $scope.interests = response;
+    })
+})
+
+.controller('codeController',function($scope, $http){
+})
+

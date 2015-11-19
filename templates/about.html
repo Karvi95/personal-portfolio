@@ -1,0 +1,8 @@
+<head>
+	<link href = "css/about.css" rel="stylesheet" type = "text/css"/>
+</head>
+<body>
+	<p ng-repeat="a in intro">{{a.Opening}}</p>
+	<!--<img ng-repeat="hobby in hobbies" ng-src="{{hobby.Image}}">-->
+	<img class="img-responsive" ng-repeat="interest in interests" ng-src="{{interest.Link}}">	
+</body>

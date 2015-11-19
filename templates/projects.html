@@ -1,3 +1,11 @@
-<p>TEST<p>
-<div>
-<p ng-repeat="project in projects">{{project.ProjectName}}</div>
+<head>
+	<link href = "css/projects.css" rel="stylesheet" type = "text/css"/>
+</head>
+<body>
+	<div>	
+		<p ng-repeat="exp in exps">{{exp.CodingExperience}}<p>
+	</div>
+	<div>
+		<p ng-repeat="project in projects">{{project.Description}}</p>
+	</div>
+</body>

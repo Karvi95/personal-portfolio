@@ -2,6 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css); 
 
+body {
+	background-color: #181C22 !important;
+}
+
 #links {
 	margin-right: 10px;
 	font-variant: small-caps;
@@ -34,9 +38,11 @@ header {
 	background-color: black;
 }
 
+ i {
+ 	color: white;
+ }
 .footer .push{
-	border-top:1px solid #e3e3e3;
-	height: 155px;
+	height: 80px;
 	position:fixed;
 	bottom:10px;
 	width:100%;
