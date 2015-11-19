@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css); 
+
+#links {
+	margin-right: 10px;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+#link {
+	margin-left: 10px;
+}
+nav {
+	position: fixed;
+	background-color: #181C22;
+	width: 100%;
+	z-index: 1;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+#headText {
+	color: white;
+}
+
+header {
+	border-bottom:1px solid #e3e3e3;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 1px;
+	background-size: cover;
+	background-color: black;
+}
+
+footer {
+	position:fixed;
+	bottom:10px;
+	border-top:1px solid #e3e3e3;
+	width:100%;
+	left:0px;
+	text-align:center;
+	padding:10px;
+}
+
+#vidDiv{
+  padding:0;
+  margin:0;
+}
+
+.vid-container{
+  position:relative;
+  height:50vh;
+  overflow:hidden;
+}
+
+.bgvid{
+  position:absolute;
+  width:50vw;
+}
+
+.inner-container{
+  width:200px;
+  height:200px;
+  position:absolute;
+  top:calc(50vh - 200px);
+  left:calc(50vw - 200px);
+  overflow:hidden;
+}
+
+#hyLinks {
+	text-decoration: none;
+
+}

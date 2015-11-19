@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Arvindram Krishnamoorthy">
+        <meta name="description" content="Multipage Portfolio for Hw7">        
+        <title>A Gentleman and Scholar</title>
+        
+        <!-- Libraries -->
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    
+        <!-- Add ui-router library here -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+        <!-- Custom code -->
+        <script src="js/main.js"></script>
+        <link href = "css/main.css" rel="stylesheet" type = "text/css"/>
+        
+    </head>
+    <body>
+        <nav container="navbar navbar-default">
+            <div align="right" id="links">
+                <a id="link" class="btn btn-default btn-xs" ui-sref="home">Home</a>
+                <a id="link" class="btn btn-default btn-xs" ui-sref="projects">Projects</a>
+                <a id="link" class="btn btn-default btn-xs" ui-sref="about">About</a>
+            </div>                    
+        </nav>
+        <header>
+            <div class="container-fluid" id="vidDiv">
+                <div class="vid-container">
+                    <video class="bgvid" autoplay="autoplay" muted="muted" preload="auto" loop>
+                        <source src="http://mazwai.com/system/posts/videos/000/000/109/webm/leif_eliasson--glaciartopp.webm?1410742112" type="video/webm">
+                    </video>
+                    <div class="inner-container">
+                        <h1 id="headText">Welcome</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+            <!-- This is where your content will display -->
+            <div ui-view></div>
+            
+            <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4" align= "center">
+                        <p class="text-center"> <i class="fa fa-envelope"></i> <a href="mailto:karvi90@gmail.com" id="hyLinks">karvi90@gmail.com</a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4" align= "center">
+                    <p class="text-center"> <i class="fa fa-phone"></i> <a href="tel:+1-425-516-1173" id="hyLinks">425-516-1173</a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4" align= "center">
+                    <p class="text-center"> <i class="fa fa-linkedin"></i> <a href= "https://https://www.linkedin.com/profile/view?id=AAIAAAoU6FwBqpE6miF_Z38ZDUp4bch3gFYZGEI&trk=nav_responsive_tab_profile_pic" id="hyLinks">Arvindram Krishnamoorthy</a></p>  
+                    </div>
+                </div>
+            </div>                           
+            </footer>
+        </div>
+    </body>
+</html>
