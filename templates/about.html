@@ -2,7 +2,21 @@
 	<link href = "css/about.css" rel="stylesheet" type = "text/css"/>
 </head>
 <body>
-	<p ng-repeat="a in intro">{{a.Opening}}</p>
+	<div class="container-fluid">
+		<h1>At a Glance</h1>
+		<p ng-repeat="a in intro">{{a.Opening}}</p>
+	</div>
 	<!--<img ng-repeat="hobby in hobbies" ng-src="{{hobby.Image}}">-->
-	<img class="img-responsive" ng-repeat="interest in interests" ng-src="{{interest.Link}}">	
+	<div class="container-fluid">
+		<h1>Interests</h1>
+		<div ng-repeat="interest in interests">		    	
+	    	<div class="col-lg-3 col-md-4 col-xs-6">
+		    	<div class="row">
+		    		<img id="interests"class="img-responsive img-rounded" ng-src="{{interest.Link}}">
+		    		<p>{{interest.Interest}}</p>
+		    	</div>
+			</div>
+			
+		</div>
+	</div>
 </body>

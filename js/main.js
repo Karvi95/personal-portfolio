@@ -50,5 +50,6 @@ myApp.config(function($stateProvider){
 })
 
 .controller('codeController',function($scope, $http){
+    $scope.count = 0;
 })
 
