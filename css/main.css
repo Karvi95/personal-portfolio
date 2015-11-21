@@ -78,6 +78,14 @@ header {
 }
 
 #hyLinks {
+	color: white;
 	text-decoration: none;
+}
 
+#hyLinks:hover {
+	color: orange;
+}
+
+#hyLinks:visited {
+    color: red;
 }

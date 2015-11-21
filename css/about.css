@@ -10,6 +10,11 @@ img {
 	margin-left:-75%;
 	margin-top:-50%;
 	width: 150%;
+
+}
+
+.container-fluid {
+	margin-bottom: 4px;
 }
 
 .frame {
@@ -19,6 +24,72 @@ img {
 	border-radius: 50%;
 	overflow: hidden;
 	display: block;
+	margin-bottom: 20px;
+	margin-left: 120px;
+}
+
+.Tennis {
+	left:50%;
+	top:50%;
+	margin-left:-65%;
+	margin-top:-50%;
+	width: 150%;
+}
+
+.Martial-Arts {
+	left:50%;
+	top:50%;
+	margin-left:-95%;
+	margin-top:-50%;
+	width: 150%;
+}
+
+.WoodWorking {
+	left:50%;
+	top:50%;
+	margin-left:-75%;
+	margin-top:-50%;
+	width: 150%;
+}
+
+.Learning-Languages {
+	left:50%;
+	top:50%;
+	margin-left:-76%;
+	margin-top:-50%;
+	width: 150%;
+}
+
+.Cooking {
+	left:50%;
+	top:50%;
+	margin-left:-85%;
+	margin-top:-50%;
+	width: 180%;
+}
+
+.Card-Games {
+	left:50%;
+	top:50%;
+	margin-left:-85%;
+	margin-top:-50%;
+	width: 150%;
+}
+
+.Playing-Guitar {
+	left:50%;
+	top:50%;
+	margin-left:-85%;
+	margin-top:-50%;
+	width: 180%;	
+}
+
+.Go {
+	left:50%;
+	top:50%;
+	margin-left:-93%;
+	margin-top:-81%;
+	width: 220%;
 }
 
 .Teaching{
