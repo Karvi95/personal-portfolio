@@ -12,13 +12,14 @@ body {
 	background-color: #181C22 !important;
 }
 #links {
-	margin-right: 10px;
+	font-size: 20px;
+	margin-right: 20px;
 	font-variant: small-caps;
 	text-decoration: none;
 }
 
 #link {
-	margin-left: 10px;
+	margin-left: 20px;
 }
 nav {
 	position: fixed;
@@ -27,7 +28,6 @@ nav {
 	z-index: 1;
 	padding-top: 15px;
 	padding-bottom: 15px;
-
 }
 
 #headText {

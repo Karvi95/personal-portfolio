@@ -1,13 +1,8 @@
-<head>
-	<link href = "css/projects.css" rel="stylesheet" type = "text/css"/>
-</head>
-<body>
-	<div class="container-fluid">
-		<h1>Coding Experience</h1>	
-		<p ng-repeat="exp in exps">{{exp.CodingExperience}}<p>
-	</div>
-	<div class ="container-fluid" ng-repeat="project in projects">
-		<h1 align="center">{{project.ProjectName}}</h1>
-		<p align="justify">{{project.Description}}</p> 
-	</div>
-</body>
+<div class="container-fluid">
+	<h1>Coding Experience</h1>	
+	<p ng-repeat="exp in exps">{{exp.CodingExperience}}<p>
+</div>
+<div class ="container-fluid" ng-repeat="project in projects">
+	<h1 align="center">{{project.ProjectName}}</h1>
+	<p align="justify">{{project.Description}}</p> 
+</div>

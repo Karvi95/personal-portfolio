@@ -49,7 +49,9 @@ myApp.config(function($stateProvider){
     })
 })
 
-.controller('codeController',function($scope, $http){
-    $scope.count = 0;
+.controller('codeController', function($scope, $http){
+     $http.get("data/code.json").success(function(response) {
+        $scope.github = response;
+    })
 })
 
