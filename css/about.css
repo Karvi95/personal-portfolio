@@ -6,7 +6,24 @@ body {
 
 
 img {
-	max-height: 200px;
-	max-width: 200px;
-	border-radius: 25px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left:-75%;
+	margin-top:-50%;
+	width: 150%;
+	
+}
+
+.frame {
+	position: relative;
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: block;
+}
+
+.Economics{
+	visibility: hidden;
 }
