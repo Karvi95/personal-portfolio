@@ -3,8 +3,6 @@ body {
 	text-align: justify;
 }
 
-
-
 img {
 	position: absolute;
 	left:50%;
@@ -12,7 +10,6 @@ img {
 	margin-left:-75%;
 	margin-top:-50%;
 	width: 150%;
-	
 }
 
 .frame {
@@ -24,6 +21,66 @@ img {
 	display: block;
 }
 
+.Teaching{
+	left:60%;
+	top:60%;
+	margin-left:-65%;
+	margin-top:-75%;
+	width: 110%;		
+}
+
+.Research{
+	left:60%;
+	top:60%;
+	margin-left:-63%;
+	margin-top:-84%;
+	width: 110%;	
+}
+
+.Startups {
+	left:50%;
+	top:50%;
+	margin-left:-90%;
+	margin-top:-65%;
+	width: 182%;
+}
+
+.Design{
+	left:60%;
+	top:60%;
+	margin-left:-63%;
+	margin-top:-80%;
+	width: 107%;	
+}
+
+.Machine-Learning {
+	left:50%;
+	top:50%;
+	margin-left:-75%;
+	margin-top:-55%;
+	width: 150%;
+}
+
+.CyberSecurity {
+	left:50%;
+	top:50%;
+	margin-left:-80%;
+	margin-top:-50%;
+	width: 160%;
+}
+
 .Economics{
-	visibility: hidden;
+	left:60%;
+	top:60%;
+	margin-left:-60%;
+	margin-top:-90%;
+	width: 100%;		
+}
+
+.Healthcare {
+	left:50%;
+	top:50%;
+	margin-left:-57%;
+	margin-top:-65%;
+	width: 115%;
 }
