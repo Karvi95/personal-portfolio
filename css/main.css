@@ -1,8 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css); 
 
+h1 {
+	font-family: Vollkorn, 'Helvetica Neue', Helvetica, sans-serif !important;
+	color: orange;
+}
+
 body {
+	font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif; 
 	background-color: #181C22 !important;
 }
 
