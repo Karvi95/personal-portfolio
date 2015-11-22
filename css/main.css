@@ -21,6 +21,11 @@ body {
 #link {
 	margin-left: 20px;
 }
+
+#icon:hover {
+	color: orange !important;
+}
+
 nav {
 	position: fixed;
 	background-color: #181C22;

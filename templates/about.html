@@ -7,10 +7,12 @@
 	<div ng-repeat="hobby in hobbies">		    	
     	<div class="col-lg-3 col-md-4 col-xs-6">
 	    	<div class="row">
-	    		<div class="frame">
-	    			<img ng-src="{{hobby.Image}}" ng-class="hobby.Hobby">
-	    		</div>
-	    		<!--<p align="center">{{hobby.Hobby}}</p>-->
+	    		<div class="carddiv">
+		    		<div class="frame">
+		    			<img ng-src="{{hobby.Image}}" ng-class="hobby.Hobby">
+		    		</div>
+		    		<p align="center">{{hobby.Hobby}}</p>
+		    	</div>
 	    	</div>
 		</div>
 	</div>

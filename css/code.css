@@ -1,3 +1,17 @@
+#codes {
+	
+}
+
+#wide {
+	width: 200px;
+}
+
+#narrow {
+	display: inline;
+	width: 350px;
+	margin-left:70%;
+}
+
 a {
 	color: white;
 	text-decoration: none !important;

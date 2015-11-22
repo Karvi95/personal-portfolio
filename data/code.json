@@ -1,4 +1,4 @@
-[{"Title":"Dawg Coffee","Description":"Simple, yet clean website for a café.","Materials":"HTML, CSS","Image":"/img/P1.png","Link":"https://github.com/Karvi95/dawg-coffee"},
+[{"Title":"Dawg Coffee","Description":"Simple, yet clean website for a café.","Materials":"HTML, CSS","Image":"/img/P1 - Copy.png","Link":"https://github.com/Karvi95/dawg-coffee"},
 {"Title":"Police Shooting","Description":"A map of all police shootings in the US by sex.","Materials":"HTML, CSS, Leaftlet.js","Image":"/img/P2.png","Link":"https://github.com/Karvi95/police-shooting"},
 {"Title":"Petulant Reviews","Description":"CRUD Application to review Magic: The Gathering Cards.","Materials":"HTML, CSS, jQuery, Parse","Image":"/img/P3.png","Link":"https://github.com/Karvi95/petulant-reviews"},
-{"Title":"Spotify Guesser","Description":"Game to guess which song is the most popular from a list.","Materials":"HTML, CSS, Angular.js, Spotify API","Image":".img/P4.png","Link":"https://github.com/Karvi95/spotify-challenge"}]
+{"Title":"Spotify Guesser","Description":"Game to guess which song is the most popular from a list.","Materials":"HTML, CSS, Angular.js, Spotify API","Image":"img/P4.png","Link":"https://github.com/Karvi95/spotify-challenge"}]
