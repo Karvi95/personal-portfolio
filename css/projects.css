@@ -2,3 +2,12 @@ body {
 	color: white;
 	text-align: justify;
 }
+
+#dots {
+  border:none;
+  border-top:1px dotted #f00;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:50%;
+}

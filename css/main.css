@@ -80,7 +80,11 @@ header {
 
 video {
 	height: 300%;
-	-webkit-filter:grayscale(80%);
+	-webkit-filter: grayscale(1) ;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url(#greyscale);
+	filter: gray;
 }
 
 .inner-container{

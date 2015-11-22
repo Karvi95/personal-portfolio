@@ -1,13 +1,18 @@
+<div class="container-fluid">
+	<h1>Coding Experience</h1>	
+	<p ng-repeat="exp in exps">{{exp.CodingExperience}}<p>
+</div>
+<hr id="dots">
 <div class ="container-fluid" ng-repeat="gits in github" id="othrPush">
 	<h1 id="spread" align="center">{{gits.Title}}</h1>
 	<div class="row">
-		<div class="col-md-6">
-			<img id="codes" ng-src"{{gits.Image}}">
-		</div>
-		<div class="col-md-6" id="noPad">
-			<p align="right">Written with: {{gits.Materials}}</p>
-			<p align="right">{{gits.Description}}</p>
-			<p align="right">View it here: &ensp;<a href="https://{{gits.Link}}">{{gits.Link}}</a></p>
-		</div>
+	<div class="col-xs-4">		
+		<p class="work" align="left">Written with: {{gits.Materials}}</p>
+	</div>	
+	<div class="col-xs-4">	
+		<p class="work" id="desc" align="center">{{gits.Description}}</p>
+	</div>	
+	<div class="col-xs-4">		
+		<p class="work" align="center"> Curious?&ensp; View it here: &ensp;<a href="{{gits.Link}}"><i id="forward"class="fa fa-arrow-circle-right"></i></a></p>
 	</div>
 </div>

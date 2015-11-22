@@ -28,9 +28,6 @@ myApp.config(function($stateProvider){
 
 // projects controller: define $scope.url as an image
 .controller('projectsController', function($scope, $http){
-    $http.get("data/codingExperience.json").success(function(response) {
-        $scope.exps = response;
-    })
     $http.get("data/projectsList.json").success(function(response) {
         $scope.projects = response;
     })
@@ -50,7 +47,10 @@ myApp.config(function($stateProvider){
 })
 
 .controller('codeController', function($scope, $http){
-     $http.get("data/code.json").success(function(response) {
+    $http.get("data/codingExperience.json").success(function(response) {
+        $scope.exps = response;
+    })
+    $http.get("data/code.json").success(function(response) {
         $scope.github = response;
     })
 })

@@ -1,3 +1,4 @@
+
 #codes {
 	margin: 10px;
 	width: 100px;
@@ -6,7 +7,8 @@
 }
 
 #spread {
-	padding-bottom: 10px;
+	padding-bottom: 35px;
+	font-size: 60px;
 }
 
 #othrPush {
@@ -21,15 +23,27 @@
 	display: inline;
 }
 
+#desc {
+	color: orange;	
+}
+
 a {
 	color: white;
 	text-decoration: none !important;
 }
 
-a:hover {
+#forward:hover {
 	color: orange;
 }
 
-a:visited {
-    color: red;
+#forward {
+	font-size: 30px;
+}
+
+#forward:visited {
+	color: red;
+}
+
+.work {
+	font-size: 25px;
 }
