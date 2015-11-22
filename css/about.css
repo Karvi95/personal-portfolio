@@ -1,19 +1,52 @@
+#HOVERINGTEXT {
+    font-style: bold !important;
+}
+
+.imgWrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.imgDescription {
+    height: 1px;
+    width: 110px;
+    margin-top: 30%;
+    margin-left: 62%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility opacity 0.2s;
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
 body {
-	color: white;
-	text-align: justify;
+    color: white;
+    text-align: justify;
 }
 
 img:hover {
-	-webkit-filter: blur(5px) grayscale(85%) !important;
+    -webkit-filter: blur(5px) grayscale(85%) brightness(90%) !important;
 }
 
 img {
-	position: absolute;
-	left:50%;
-	top:50%;
-	margin-left:-75%;
-	margin-top:-50%;
-	width: 150%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left:-75%;
+    margin-top:-50%;
+    width: 150%;
 
 }
 
@@ -28,148 +61,148 @@ img:hover > .overlay {
 
 
 .container-fluid {
-	margin-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .frame {
-	position: relative;
-	height: 180px;
-	width: 180px;
-	border-radius: 50%;
-	overflow: hidden;
-	display: block;
-	margin-bottom: 20px;
-	margin-left: 120px;
+    position: relative;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 120px;
 }
 
 .Tennis {
-	left:50%;
-	top:50%;
-	margin-left:-65%;
-	margin-top:-50%;
-	width: 150%;
+    left:50%;
+    top:50%;
+    margin-left:-65%;
+    margin-top:-50%;
+    width: 150%;
 }
 
 .Martial-Arts {
-	left:50%;
-	top:50%;
-	margin-left:-95%;
-	margin-top:-50%;
-	width: 150%;
+    left:50%;
+    top:50%;
+    margin-left:-95%;
+    margin-top:-50%;
+    width: 150%;
 }
 
 .WoodWorking {
-	left:50%;
-	top:50%;
-	margin-left:-75%;
-	margin-top:-50%;
-	width: 150%;
+    left:50%;
+    top:50%;
+    margin-left:-75%;
+    margin-top:-50%;
+    width: 150%;
 }
 
 .Learning-Languages {
-	left:50%;
-	top:50%;
-	margin-left:-76%;
-	margin-top:-50%;
-	width: 150%;
+    left:50%;
+    top:50%;
+    margin-left:-76%;
+    margin-top:-50%;
+    width: 150%;
 }
 
 .Cooking {
-	left:50%;
-	top:50%;
-	margin-left:-85%;
-	margin-top:-50%;
-	width: 180%;
+    left:50%;
+    top:50%;
+    margin-left:-85%;
+    margin-top:-50%;
+    width: 180%;
 }
 
 .Card-Games {
-	left:50%;
-	top:50%;
-	margin-left:-85%;
-	margin-top:-50%;
-	width: 150%;
+    left:50%;
+    top:50%;
+    margin-left:-85%;
+    margin-top:-50%;
+    width: 150%;
 }
 
 .Playing-Guitar {
-	left:50%;
-	top:50%;
-	margin-left:-85%;
-	margin-top:-50%;
-	width: 180%;	
+    left:50%;
+    top:50%;
+    margin-left:-85%;
+    margin-top:-50%;
+    width: 180%;    
 }
 
 .Go {
-	left:50%;
-	top:50%;
-	margin-left:-93%;
-	margin-top:-81%;
-	width: 220%;
+    left:50%;
+    top:50%;
+    margin-left:-93%;
+    margin-top:-81%;
+    width: 220%;
 }
 
 .Teaching{
-	left:60%;
-	top:60%;
-	margin-left:-65%;
-	margin-top:-75%;
-	width: 110%;		
+    left:60%;
+    top:60%;
+    margin-left:-65%;
+    margin-top:-75%;
+    width: 110%;        
 }
 
 .Research{
-	left:60%;
-	top:60%;
-	margin-left:-63%;
-	margin-top:-84%;
-	width: 110%;	
+    left:60%;
+    top:60%;
+    margin-left:-63%;
+    margin-top:-84%;
+    width: 110%;    
 }
 
 .Startups {
-	left:50%;
-	top:50%;
-	margin-left:-90%;
-	margin-top:-65%;
-	width: 182%;
+    left:50%;
+    top:50%;
+    margin-left:-90%;
+    margin-top:-65%;
+    width: 182%;
 }
 
 .Design{
-	left:60%;
-	top:60%;
-	margin-left:-63%;
-	margin-top:-80%;
-	width: 107%;	
+    left:60%;
+    top:60%;
+    margin-left:-63%;
+    margin-top:-80%;
+    width: 107%;    
 }
 
 .Machine-Learning {
-	left:50%;
-	top:50%;
-	margin-left:-75%;
-	margin-top:-55%;
-	width: 150%;
+    left:50%;
+    top:50%;
+    margin-left:-75%;
+    margin-top:-55%;
+    width: 150%;
 }
 
 .CyberSecurity {
-	left:50%;
-	top:50%;
-	margin-left:-80%;
-	margin-top:-50%;
-	width: 160%;
+    left:50%;
+    top:50%;
+    margin-left:-80%;
+    margin-top:-50%;
+    width: 160%;
 }
 
 .Economics{
-	left:60%;
-	top:60%;
-	margin-left:-60%;
-	margin-top:-90%;
-	width: 100%;		
+    left:60%;
+    top:60%;
+    margin-left:-60%;
+    margin-top:-90%;
+    width: 100%;        
 }
 
 .Healthcare {
-	left:50%;
-	top:50%;
-	margin-left:-57%;
-	margin-top:-65%;
-	width: 115%;
+    left:50%;
+    top:50%;
+    margin-left:-57%;
+    margin-top:-65%;
+    width: 115%;
 }
 
 #push {
-	margin-top: 3.67%;
+    margin-top: 3.67%;
 }
