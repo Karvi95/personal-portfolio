@@ -36,6 +36,7 @@ nav {
 }
 
 #headText {
+	font-size: 4em;
 	color: white;
 }
 
@@ -74,8 +75,12 @@ header {
 }
 
 .bgvid{
-  position:absolute;
-  width:50vw;
+  position:relative;
+}
+
+video {
+	height: 300%;
+	-webkit-filter:grayscale(80%);
 }
 
 .inner-container{

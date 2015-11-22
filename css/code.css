@@ -1,15 +1,24 @@
 #codes {
-	
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	visibility: visible !important;
+}
+
+#spread {
+	padding-bottom: 10px;
+}
+
+#othrPush {
+	margin-bottom: 20px;
 }
 
 #wide {
 	width: 200px;
 }
 
-#narrow {
+#check {
 	display: inline;
-	width: 350px;
-	margin-left:70%;
 }
 
 a {

@@ -1,5 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:800);
+
 #HOVERINGTEXT {
+    font-family: Alegreya Sans SC;
     font-style: bold !important;
+    font-weight: 800px;
 }
 
 .imgWrap {
@@ -25,19 +29,14 @@
     -webkit-transition: visibility opacity 0.2s;
 }
 
-
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
 }
 
-body {
-    color: white;
-    text-align: justify;
-}
 
 img:hover {
-    -webkit-filter: blur(5px) grayscale(85%) brightness(90%) !important;
+    -webkit-filter: blur(5px) grayscale(90%) brightness(100%) !important;
 }
 
 img {
@@ -199,7 +198,7 @@ img:hover > .overlay {
     left:50%;
     top:50%;
     margin-left:-57%;
-    margin-top:-65%;
+    margin-top:-67%;
     width: 115%;
 }
 
