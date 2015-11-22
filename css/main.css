@@ -36,7 +36,7 @@ nav {
 }
 
 #headText {
-	font-size: 4em;
+	font-size: 2em;
 	color: white;
 }
 
@@ -84,10 +84,10 @@ video {
 }
 
 .inner-container{
-  width:200px;
+  width:430px;
   height:200px;
   position:absolute;
-  top:calc(50vh - 200px);
+  top:calc(45vh - 200px);
   left:calc(50vw - 200px);
   overflow:hidden;
 }
